@@ -3,6 +3,15 @@ body {
     padding: 0;
     background-color: rgb(31, 201, 231);
 }
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
 #main-box {
     border: 3px solid black;
     border-radius: 5%;
@@ -33,5 +42,5 @@ h3 {
     
 }
 #placehold {
-    color: hotpink;
+    color: rgb(210, 255, 105);
 }
