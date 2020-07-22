@@ -1,6 +1,5 @@
 body {
-    margin: 0;
-    padding: 0;
+    
     background-color: rgb(31, 201, 231);
 }
 
@@ -13,22 +12,28 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 #main-box {
-    border: 3px solid black;
-    border-radius: 5%;
-    background-color: black;
-    margin-left: 10px;
-    margin-right: 10px;
+    background-color: grey;
+    position: relative;
+    margin-left: 200px;
+    margin-right: 200px;
+    width: 50%;
+    border-radius: 16px;
+    border: 1px solid black;
 }
+
+header {
+    background-color: purple;
+}
+
 h3 {
     text-align: center;
-    background-color: black;
     color: white;
 }
 
 #bill-info {
+    text-align: center;
     background-color: grey;
-    margin-left: 20px;
-    margin-right: 20px;
+    border-radius: 16px;
 }
 
 #main-option {
@@ -38,8 +43,8 @@ h3 {
 #calculate {
     background-color: red;
 }
-#calculate {
-    
+#numOfPeople {
+    margin-bottom: 10px;
 }
 #placehold {
     color: rgb(210, 255, 105);
