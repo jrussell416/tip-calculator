@@ -8,18 +8,21 @@
 </head>
 <body>
     <div id="main-box">
-        <h3>TIP CALCULATOR</h3>
+       
         <div id="bill-info">
+            <header>
+            <h3>TIP CALCULATOR</h3>
+            </header>
             <p>Total bill amount ($):</p>
-            <input type="text" id="amount"  placeholder="Amount"> 
-            <p>How would you rate the service?</p>
+            <input type="text" id="amount" placeholder="Amount"> 
+            <p>Select level of service to determine tip amount</p>
             <select name="service" id="service">
                 <option id="main-option" value="selectOption">-- Select a service level --</option>
-                <option value=".30">30% - Outstanding</option>
-                <option value=".20">20% - Good</option>
-                <option value=".15">15% - Ok</option>
-                <option value=".10">10% - Bad</option>
-                <option value=".05">5% - Terrible</option>
+                <option value=".30">Outstanding - 30% tip</option>
+                <option value=".20">Good - 20% tip</option>
+                <option value=".15">Ok - 15% tip</option>
+                <option value=".10">Bad - 10% tip</option>
+                <option value=".05">Terrible - 5% tip</option>
             </select>
             <p>Number of people to split the bill between:</p>
             <input  type="text" id="numOfPeople" placeholder="Number of people"> 
