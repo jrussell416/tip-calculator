@@ -9,7 +9,7 @@ if (billAmount === "0" || billAmount === "") {
     } else if (numberOfPeople === "0" || numberOfPeople === "") {
         alert("Enter number of people splitting the tip");
     } else {
-    let tipMath = billAmount * tipAmount / numberOfPeople ;
+    let tipMath = billAmount * tipAmount / numberOfPeople;
 document.getElementById("placehold").innerHTML = "TIP AMOUNT: <br>" + "$ " + tipMath.toFixed(2) + "<br>Per person";
 }
 }
